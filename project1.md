@@ -16,7 +16,9 @@ This project has been designed to create a custom "Map" data type that stores a 
 ## How to compile and run the program
 
 Utilize g++ to compile the source files as this project is run in C++.
+
 Compile the program using the following command as this will compile your program automatically: **make all**
+
 Once you have compiled the program, you can run it with: **make run**
 
 ## UI Design
