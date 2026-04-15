@@ -1,43 +1,43 @@
 [Back to Portfolio](./)
 
-Project 1 Title
+Minefield
 ===============
 
--   **Class:** 
--   **Grade:** 
--   **Language(s):** 
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+-   **Class: CSCI 325 Object-Oriented Programming** 
+-   **Grade: A** 
+-   **Language(s): Java** 
+-   **Source Code Repository:** [features/mastering-markdown](https://github.com/csu-cs/CSCI-325-Minefield)  
+    (Please [email me](mailto:raocampo@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This team project was a "creative authentication concept" that ties gaming to access of the system. As the program opens up, the user will see a welcome screen and then will be asked to start a round of Minefield. Once the user completes the round of Minefield, they will then be able to input their username and password to gain access to their own command interface or gui. If the inputted username and password are incorrect, the user will have to go back and complete another round of Minesweeper before they will be able to try again. The document stated that this concept was created to show off possible future technology and highlight the importance of proper authentication when it comes to granting users access to systems. The idea behind this concept was partially influenced by the movie *War Games*, released in 1983.
 
 ## How to compile and run the program
 
-How to compile (if applicable) and run the project.
-
-```bash
-cd ./project
-python setup.py
-```
-
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
+Users would have to need Apache Netbeans IDE Installed, import the project contents, and then run the project. Once the project runs, users would follow on-screen commands.
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
+The program would utilize multiple interfaces as users continue through on-screen commands. The would first approach the Welcome Screen (Fig. 1) following by the start game option (Fig. 2). Users are then brought to the Minefield board layout (Fig. 3) and play the traditional Minfield game by placing flags. If the user fails, they are met with a "You lost" message (Fig. 4) and can attempt to try again. After a user successfully completes the game (Fig. 5), they are then brought to the login screen as the last step of the process (Fig. 6).
 
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+![screenshot](images/project2_screenshot1.png)  
+Fig 1. Welcome Screen
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+![screenshot](images/project2_screenshot2.png)  
+Fig 2. Start Game
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+![screenshot](images/project2_screenshot3.png)  
+Fig 3. Minefield board layout
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+![screenshot](images/project2_screenshot4.png)  
+Fig 4. "You lost."
+
+![screenshot](images/project2_screenshot5.png)  
+Fig 5. "You won!"
+
+![screenshot](images/project2_screenshot6.png)  
+Fig 6. Login Screen
 
 ## 3. Additional Considerations
 
