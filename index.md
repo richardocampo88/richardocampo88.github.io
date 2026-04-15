@@ -31,20 +31,20 @@ Programming Projects
 Ethics Papers
 -------------
 
-### [Paper 1 Title](/pdf/sample_presentation.pdf)
+### [Ethical Issues Surrounding Data Collection and Use by Facebook](/pdf/Ethical Issues Surrounding Data Collection and Use by Facebook.pdf)
 
--   **Class:**  
--   **Grade:**
+-   **Class: CSCI 235 Procedural Programming**  
+-   **Grade: A**
 
-### [Paper 2 Title](/pdf/sample_presentation.pdf)
+### [Professional Ethics in the Digital Age](/pdf/Professional Ethics in the Digital Age - Richard Ocampo.pdf)
 
--   **Class:** 
--   **Grade:**
+-   **Class: CSCI 325 Object-Oriented Programming** 
+-   **Grade: A**
 
-### [Paper 3 Title](/pdf/sample_presentation.pdf)
+### [Edward Snowden and The WikiLeaks](/pdf/White Paper 1 - Richard Ocampo.pdf)
 
--   **Class:** 
--   **Grade:**
+-   **Class: CSCI 405 Principles of Cybersecurity** 
+-   **Grade: A**
 
 ---
 
