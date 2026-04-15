@@ -33,6 +33,6 @@ Fig 2. Data output from program. Results may vary.
 
 Fast execution time is very important especially regarding operations get() and howmany(), so memory efficiency is critical since storing all possible combinations of first and last names (and their ids) would take over 5GB of memory as well as hash maps explicitly forbidden from being used.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [CSU, CSCI 315 Data Structures](https://github.com/csu-cs/CSCI-315-2025-Spring).
 
 [Back to Portfolio](./)
