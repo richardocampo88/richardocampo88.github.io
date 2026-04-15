@@ -51,16 +51,16 @@ Ethics Papers
 Presentations
 -------------
 
-### [Presentation 1 Title](/pdf/sample_presentation.pdf)
+### [Mt. Gox Hack 2014](https://www.youtube.com/watch?v=AGlHu1p4j28)
 
-- **Class:** 
-- **Grade:**
+- **Class: CSCI 405 Principles of Cybersecurity** 
+- **Grade: A**
 
 
-### [Presentation 2 Title](/pdf/sample_presentation.pdf)
+### [SolarWinds Presentation](https://www.youtube.com/watch?v=ERwTZUiBbrk)
 
-- **Class:** 
-- **Grade:**
+- **Class: CSCI 352 Cyber Defense** 
+- **Grade: A**
 
 ---
 
