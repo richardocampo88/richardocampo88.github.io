@@ -25,10 +25,10 @@ Once you have compiled the program, you can run it with: **make run**
 
 This project does not have a graphical user interface (gui). Instead, it is a backend/data structures project focused on providing fast execution times, low memory usage, and high correctness rates. The "interface" for this project exists only in terms of the C++ class interface meaning the public methods that allow a user or test program to interact with the data structure.
 
-![screenshot](images/dummy_thumbnail.jpg)  
+![screenshot](images/project1 screenshot.png)  
 Fig 1. Command Line
 
-![screenshot](images/dummy_thumbnail.jpg)  
+![screenshot](images/project1 screenshot 2.png)  
 Fig 2. Data output from program. Results may vary.
 
 ## 3. Additional Considerations
