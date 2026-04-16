@@ -22,9 +22,9 @@ Programming Projects
 ![Project 3 Thumbnail Name](images/project3_screenshot3.png)
 
 ---
-### [Project 4 Title | CSCI 332](project1)
+### [Magic Number Guessing Game | CSCI 301](project4)
 
-![Project 4 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 4 Thumbnail Name](images/project4_screenshot1.png)
 
 ---
 
