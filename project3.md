@@ -1,13 +1,13 @@
 [Back to Portfolio](./)
 
-Project 1 Title
+Chatroom
 ===============
 
--   **Class:** 
--   **Grade:** 
--   **Language(s):** 
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+-   **Class: CSCI 332 Applied Networking** 
+-   **Grade: A** 
+-   **Language(s): Python** 
+-   **Source Code Repository:** [richardocampo88/Chatroom](https://github.com/richardocampo88/CSCI-332-project)  
+    (Please [email me](mailto:RAOcampo@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
