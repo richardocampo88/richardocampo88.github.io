@@ -42,7 +42,7 @@ At this point, your client should ask the user for their chosen nickname. Upon s
 
 ## UI Design
 
-The user experience/UI is purely command-line/text-based. This keeps things simple and focused on usability/functionality. There is an update when the server starts listing for incoming clients. When a new user joins the chat session, there is an update showing they have joined (Fig. 1)
+The user experience/UI is purely command-line/text-based. This keeps things simple and focused on usability/functionality. There is an update when the server starts listing for incoming clients. When a new user joins the chat session, there is an update showing they have joined (Fig. 1).
 
 ![screenshot](images/project3_screenshot3.png)  
 Fig 1. The chatroom functionality
