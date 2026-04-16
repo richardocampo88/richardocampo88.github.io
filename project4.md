@@ -11,38 +11,31 @@ Magic Number Guessing Game
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+When the application is initiated, it will generate a random “magic number”, ranging between 1 and 20, and request that the user attempts to guess the magic number. Following every attempt to guess the magic number, the application will advise the user if their guess was below or above the actual value of the magic number. The application will continue to prompt the user to make another guess until the user either correctly guesses the magic number or selects the option to stop playing. If the user successfully identifies the magic number, then the application will provide a congratulatory message displaying the magic number.
 
 ## How to compile and run the program
 
-How to compile (if applicable) and run the project.
+The application does not require compilation due to being a Perl script. In order to execute this Perl script, you simply run perl followed by the name of your Perl script in the shell/terminal window like this: **perl magicnumber.pl**
 
-```bash
-cd ./project
-python setup.py
-```
-
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
+Once executed, the script will present a welcome message, ask the user to guess a number between 1 and 20, and await additional input entered via standard input.
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
+The game utilizes a text-based console interface. Interaction occurs solely between printed messages to the user and keyboard input entered by the user at their local terminal (Fig. 1)
 
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+![screenshot](images/project4_screenshot1.png)  
+Fig 1. The application interaction
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+• The user is greeted and invited to participate in the game.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+• The user is asked to enter a guess for the magic number.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+• Feedback about how close they were with their most recent guess is provided after each guess.
+
+• The user wins when they finally guess the correct number or exits the game when prompted to do so.
 
 ## 3. Additional Considerations
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+One minor issue exists in terms of how the program handles both comparisons of guesses against the randomly created magic number AND processing of input that includes typing ‘quit’. As such, processing of ‘quit’ is slightly less organized than it could have been. However, overall structure and sequence of the game is relatively simple to follow.
 
 [Back to Portfolio](./)
