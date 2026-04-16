@@ -6,7 +6,7 @@ Minesweeper
 -   **Class: CSCI 325 Object-Oriented Programming** 
 -   **Grade: A** 
 -   **Language(s): Java** 
--   **Source Code Repository:** [features/mastering-markdown](https://github.com/csu-cs/CSCI-325-Minefield)  
+-   **Source Code Repository:** [richardocampo88/minesweeper](https://github.com/csu-cs/CSCI-325-Minefield)  
     (Please [email me](mailto:raocampo@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
 ## Project description
