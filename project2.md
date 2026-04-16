@@ -43,6 +43,4 @@ Fig 6. Login Screen
 
 The project was built by a team of five members, with most working in-person and one working online. Communication was planned through Blackboard discussion boards and Discord messaging.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
 [Back to Portfolio](./)
