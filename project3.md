@@ -20,7 +20,6 @@ There is no compilation process. Instead, this executes Python code directly. Be
 Required files:
 
 chatroom-server.py: Server file for the machine hosting the chat session
-
 chatroom-client.py: Client file for each user who joins the chat session
 
 Starting the Server:
@@ -32,7 +31,6 @@ For some Mac installations, you might need to execute: **python3 chatroom-server
 Your server should now display messages:
 
 Server Established.
-
 Server Listening... 
 
 
