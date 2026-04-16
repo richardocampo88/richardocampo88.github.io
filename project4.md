@@ -21,7 +21,7 @@ Once executed, the script will present a welcome message, ask the user to guess 
 
 ## UI Design
 
-The game utilizes a text-based console interface. Interaction occurs solely between printed messages to the user and keyboard input entered by the user at their local terminal (Fig. 1)
+The game utilizes a text-based console interface. Interaction occurs solely between printed messages to the user and keyboard input entered by the user at their local terminal (Fig. 1).
 
 ![screenshot](images/project4_screenshot1.png)  
 Fig 1. The application interaction
