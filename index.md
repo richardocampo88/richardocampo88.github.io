@@ -17,9 +17,9 @@ Programming Projects
 ![Project 2 Thumbnail Name](images/project2_screenshot4.png)
 
 ---
-### [Project 3 Title | CSCI 325](project1)
+### [Chatroom | CSCI 332](project1)
 
-![Project 3 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 3 Thumbnail Name](images/project3_screenshot3.png)
 
 ---
 ### [Project 4 Title | CSCI 332](project1)
