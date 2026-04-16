@@ -1,13 +1,13 @@
 [Back to Portfolio](./)
 
-Project 1 Title
+Magic Number Guessing Game
 ===============
 
--   **Class:** 
--   **Grade:** 
--   **Language(s):** 
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+-   **Class: CSCI 301 Survey of Scripting Languages** 
+-   **Grade: A** 
+-   **Language(s): Perl** 
+-   **Source Code Repository:** [richardocampo88/magicnumber](https://github.com/richardocampo88/CSCI-301-project)  
+    (Please [email me](mailto:raocampo@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
