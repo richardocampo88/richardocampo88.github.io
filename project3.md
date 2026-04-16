@@ -6,43 +6,61 @@ Chatroom
 -   **Class: CSCI 332 Applied Networking** 
 -   **Grade: A** 
 -   **Language(s): Python** 
--   **Source Code Repository:** [richardocampo88/Chatroom](https://github.com/richardocampo88/CSCI-332-project)  
+-   **Source Code Repository:** [richardocampo88/chatroom](https://github.com/richardocampo88/CSCI-332-project)  
     (Please [email me](mailto:RAOcampo@student.csuniv.edu?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This project is a simple chatroom app based on python. With this application, multiple users can interact with each other using the internet. It is broken up into two sections: the server portion and a client portion. The server functions as the main hub of the chat room where all client activity takes place. Each client connects to the server, communicates with the server, and receives information from the server.
 
 ## How to compile and run the program
 
-How to compile (if applicable) and run the project.
+There is no compilation process. Instead, this executes Python code directly. Before executing your application, make sure that Python is installed on each machine. Additionally, make certain that both computers are located on the same network if testing across two separate computers.
 
-```bash
-cd ./project
-python setup.py
-```
+Required files:
 
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
+chatroom-server.py: Server file for the machine hosting the chat session
+chatroom-client.py: Client file for each user who joins the chat session
+
+Starting the Server:
+
+Open Command Prompt or Terminal on the machine acting as the server. Navigate to the directory containing chatroom-server.py and execute: **python chatroom-server.py**.
+
+For some Mac installations, you might need to execute: **python3 chatroom-server.py**
+
+Your server should now display messages:
+Server Established.
+Server Listening... 
+
+Starting the Client:
+
+Open Terminal or Command Prompt on the client machine. Navigate to the directory containing chatroom-client.py and execute: **python chatroom-client.py**
+
+Or, if you're on a Mac: **python3 chatroom-client.py**
+
+At this point, your client should ask the user for their chosen nickname. Upon selecting a nickname, your client will connect to your server and enter the chat session.
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
-
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+The user experience/UI is purely command-line/text-based. This keeps things simple and focused on usability/functionality. There is an update when the server starts listing for incoming clients. When a new user joins the chat session, there is an update showing they have joined (Fig. 1)
 
 ![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
-
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
-
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+Fig 1. The chatroom functionality
 
 ## 3. Additional Considerations
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+For initial setup, the client file must have its own configuration for the server's IP address and port number.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+As an example:
+
+client.connect(('10.0.0.16', 5000))
+
+And similarly, your server must be bound to the same port number. For instance:
+
+server.bind(('0.0.0.0', 5000))
+
+If the port numbers don't match, your clients won't be able to successfully connect.
+
+Your server must be activated prior to attempting to connect any clients. If clients attempt to connect before activating your server, it will be unable to establish a connection. Also, clients must utilize the correct IP address associated with your server, and both clients and servers must utilize identical port numbers. Both devices utilized in testing (on two different computers) must either share the same local network or additional networking setup (e.g., port forwarding) needs to occur in order for successful connection(s). This project is intended to remain relatively basic to understand how python works.
 
 [Back to Portfolio](./)
