@@ -19,7 +19,7 @@ Users would have to need Apache Netbeans IDE Installed, import the project conte
 
 ## UI Design
 
-The program would utilize multiple interfaces as users continue through on-screen commands. The would first approach the Welcome Screen (Fig. 1) following by the start game option (Fig. 2). Users are then brought to the Minesweeper board layout (Fig. 3) and play the traditional Minfield game by placing flags. If the user fails, they are met with a "You lost" message (Fig. 4) and can attempt to try again. After a user successfully completes the game (Fig. 5), they are then brought to the login screen as the last step of the process (Fig. 6).
+The program would utilize multiple interfaces as users continue through on-screen commands. The would first approach the Welcome Screen (Fig. 1) following by the start game option (Fig. 2). Users are then brought to the Minesweeper board layout (Fig. 3) and play the traditional Minesweeper game by placing flags. If the user fails, they are met with a "You lost" message (Fig. 4) and can attempt to try again. After a user successfully completes the game (Fig. 5), they are then brought to the login screen as the last step of the process (Fig. 6).
 
 ![screenshot](images/project2_screenshot1.png)  
 Fig 1. Welcome Screen
