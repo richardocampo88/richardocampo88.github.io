@@ -17,10 +17,13 @@ This project is a simple chatroom app based on python. With this application, mu
 
 There is no compilation process. Instead, this executes Python code directly. Before executing your application, make sure that Python is installed on each machine. Additionally, make certain that both computers are located on the same network if testing across two separate computers.
 
+
 Required files:
 
 chatroom-server.py: Server file for the machine hosting the chat session
+
 chatroom-client.py: Client file for each user who joins the chat session
+
 
 Starting the Server:
 
@@ -31,7 +34,9 @@ For some Mac installations, you might need to execute: **python3 chatroom-server
 Your server should now display messages:
 
 Server Established.
+
 Server Listening... 
+
 
 
 Starting the Client:
